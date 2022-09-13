@@ -44,7 +44,8 @@ body {
 .link-number,
 .mailto,
 .tel,
-.adress-company {
+.adress-company,
+.portfolio-link {
   text-decoration: none;
 }
 
@@ -208,6 +209,7 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--main-color-text);
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
 .portfolio-items {
@@ -226,9 +228,6 @@ h2 {
   color: var(--secondary-color);
 }
 
-.portfolio-link {
-  text-decoration: none;
-}
 
 .section-button:focus,
 .section-button:hover,
