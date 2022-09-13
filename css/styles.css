@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway" ,sans-serif;
   background-color: var(--white-color);
   color: var(--main-color-text);
 }
@@ -22,15 +22,19 @@ body {
   letter-spacing: 0.03em;
   color: var(--acent-color);
 }
-.page-logo:focus,
-.page-logo:hover,
-.mailto:focus,
-.mailto:hover,
+
 .adress-company:hover,
 .adress-company:focus,
-.tel:hover,
-.tel:focus {
-  outline: dotted var(--acent-color);
+.mailto:hover, 
+.mailto:focus,
+.link-number:focus,
+.link-number:hover,
+.page-logo:focus,
+.page-logo:hover,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.tel:hover, .tel:focus {
+  color: var(--acent-color);
 }
 
 .page-logo,
@@ -60,6 +64,7 @@ ul {
 .link {
   color: var(--main-color-text);
 }
+
 .link,
 .link-acent,
 .link-email,
@@ -69,6 +74,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+
 .link-number {
   color: var(--secondary-color);
 }
@@ -78,19 +84,9 @@ ul {
 .auth-nav-list .link-email:focus,
 .auth-nav-list .link-email:hover {
   color: var(--black-color);
-  outline: dotted var(--acent-color);
-}
-.site-nav .link:hover,
-.site-nav .link:focus,
-.auth-nav-list .link-number:hover,
-.auth-nav-list .link-number:focus {
-  color: var(--acent-color);
-  outline: dotted var(--acent-color);
 }
 
-.link-number {
-  color: var(--secondary-color);
-}
+
 
 .section-title {
   color: var(--main-color-text);
@@ -102,26 +98,26 @@ ul {
 
 .hero {
   background-color: var(--header-footer-color);
+  height: 600px;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  text-align: center;
 }
+
 .hero-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
-}
-
-button {
   cursor: pointer;
 }
+
 
 .features-text {
   color: var(--secondary-color);
@@ -139,8 +135,7 @@ button {
   text-transform: uppercase;
 }
 
-.hero-button,
-.section-button {
+.hero-button {
   background-color: var(--acent-color);
   color: var(--white-color);
   border-radius: 4px;
@@ -197,6 +192,7 @@ h2 {
   left: 976px;
 }
 
+.section-button,
 .button-sites,
 .button-adds,
 .button-design,
@@ -234,6 +230,8 @@ h2 {
   text-decoration: none;
 }
 
+.section-button:focus,
+.section-button:hover,
 .button-sites:focus,
 .button-adds:focus,
 .button-design:focus,
@@ -242,5 +240,6 @@ h2 {
 .button-adds:hover,
 .button-design:hover,
 .button-marketing:hover {
-  color: var(--acent-color);
+  background-color: var(--acent-color);
+  color: var(--button-color);
 }
