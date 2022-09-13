@@ -1,0 +1,246 @@
+:root {
+  --main-color-text: #212121;
+  --secondary-color: #757575;
+  --white-color: #fff;
+  --secondary-white: rgba (0, 0, 0, 0.6);
+  --button-color: #f5f4fa;
+  --acent-color: #2196f3;
+  --header-footer-color: #2f303a;
+  --black-color: #000;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+  color: var(--main-color-text);
+}
+
+.page-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--acent-color);
+}
+.page-logo:focus,
+.page-logo:hover,
+.mailto:focus,
+.mailto:hover,
+.adress-company:hover,
+.adress-company:focus,
+.tel:hover,
+.tel:focus {
+  outline: dotted var(--acent-color);
+}
+
+.page-logo,
+.link-acent,
+.link,
+.link-email,
+.link-number,
+.mailto,
+.tel,
+.adress-company {
+  text-decoration: none;
+}
+
+.page-logo-part {
+  color: var(--black-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.link-acent,
+.link-email {
+  color: var(--acent-color);
+}
+
+.link {
+  color: var(--main-color-text);
+}
+.link,
+.link-acent,
+.link-email,
+.link-number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.link-number {
+  color: var(--secondary-color);
+}
+
+.site-nav .link-acent:hover,
+.site-nav .link-acent:focus,
+.auth-nav-list .link-email:focus,
+.auth-nav-list .link-email:hover {
+  color: var(--black-color);
+  outline: dotted var(--acent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav-list .link-number:hover,
+.auth-nav-list .link-number:focus {
+  color: var(--acent-color);
+  outline: dotted var(--acent-color);
+}
+
+.link-number {
+  color: var(--secondary-color);
+}
+
+.section-title {
+  color: var(--main-color-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+.hero {
+  background-color: var(--header-footer-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+}
+
+button {
+  cursor: pointer;
+}
+
+.features-text {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.hero-button,
+.section-button {
+  background-color: var(--acent-color);
+  color: var(--white-color);
+  border-radius: 4px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.main-team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+.main-team-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--secondary-color);
+  letter-spacing: 0.03em;
+}
+
+.section-button {
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+}
+
+.button-sites {
+  width: 128px;
+  left: 576px;
+}
+
+.button-adds {
+  width: 145px;
+  left: 712px;
+}
+
+.button-design {
+  width: 103px;
+  left: 865px;
+}
+
+.button-marketing {
+  width: 130px;
+  left: 976px;
+}
+
+.button-sites,
+.button-adds,
+.button-design,
+.button-marketing {
+  background: var(--button-color);
+  border-radius: 4px;
+  top: 174px;
+  height: 38px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: var(--main-color-text);
+  font-family: "Roboto", sans-serif;
+}
+
+.portfolio-items {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--main-color-text);
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.portfolio-link {
+  text-decoration: none;
+}
+
+.button-sites:focus,
+.button-adds:focus,
+.button-design:focus,
+.button-marketing:focus,
+.button-sites:hover,
+.button-adds:hover,
+.button-design:hover,
+.button-marketing:hover {
+  color: var(--acent-color);
+}
