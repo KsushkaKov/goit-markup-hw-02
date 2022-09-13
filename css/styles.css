@@ -18,7 +18,7 @@ body {
 .page-logo {
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.93em;
   letter-spacing: 0.03em;
   color: var(--acent-color);
 }
@@ -71,7 +71,7 @@ ul {
 .link-number {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1em;
   letter-spacing: 0.02em;
 }
 
@@ -92,7 +92,7 @@ ul {
   color: var(--main-color-text);
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 2.62em;
   letter-spacing: 0.03em;
 }
 
@@ -113,7 +113,7 @@ ul {
 .hero-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87em;
   letter-spacing: 0.06em;
   cursor: pointer;
 }
@@ -123,14 +123,14 @@ ul {
   color: var(--secondary-color);
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5em;
   letter-spacing: 0.03em;
 }
 
 .features-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -150,13 +150,13 @@ h2 {
 .main-team-list-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18em;
   letter-spacing: 0.03em;
 }
 .main-team-list-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18em;
   color: var(--secondary-color);
   letter-spacing: 0.03em;
 }
@@ -168,7 +168,7 @@ h2 {
   top: 174px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62em;
   letter-spacing: 0.03em;
 }
 
@@ -204,7 +204,7 @@ h2 {
   border: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62em;
   letter-spacing: 0.03em;
   color: var(--main-color-text);
   font-family: "Roboto", sans-serif;
@@ -213,7 +213,7 @@ h2 {
 .portfolio-items {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2.25em;
   letter-spacing: 0.06em;
   color: var(--main-color-text);
 }
@@ -221,7 +221,7 @@ h2 {
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87em;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
