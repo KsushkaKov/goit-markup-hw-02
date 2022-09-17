@@ -2,7 +2,7 @@
   --main-color-text: #212121;
   --secondary-color: #757575;
   --white-color: #fff;
-  --secondary-white: rgba (0, 0, 0, 0.6);
+  --secondary-white: rgba(255, 255, 255, 0.6);
   --button-color: #f5f4fa;
   --acent-color: #2196f3;
   --header-footer-color: #2f303a;
@@ -28,6 +28,11 @@ body {
   color: var(--black-color);
 }
 
+.page-logo,
+.page-logo-part {
+  font-family: "Raleway";
+}
+
 .adress-company:hover,
 .adress-company:focus,
 .mailto:hover,
@@ -41,6 +46,8 @@ body {
 .page-logo:hover,
 .page-logo-part:hover,
 .page-logo-part:focus,
+.page-logo-part-footer:hover,
+.page-logo-part-footer:focus,
 .site-nav .link:hover,
 .site-nav .link:focus,
 .tel:hover,
@@ -118,6 +125,7 @@ ul {
 }
 
 .features-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.17;
   text-transform: uppercase;
@@ -149,12 +157,29 @@ ul {
   color: var(--secondary-color);
 }
 
+.page-logo-part-footer {
+  font-family: "Raleway";
+  color: var(--white-color);
+}
+
+.footer-section {
+  background-color: var(--header-footer-color);
+}
+
 .adress-company,
 .mailto,
 .tel {
   line-height: 1.71;
-  color: var(--white-color);
   font-style: normal;
+}
+
+.adress-company {
+  color: var(--white-color);
+}
+
+.mailto,
+.tel {
+  color: var(--secondary-white);
 }
 
 .button-sites {
